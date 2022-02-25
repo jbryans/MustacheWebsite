@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: auto;
+    height: 1000px;
+}
+a:hover, li.selected a{
+    color: #09944A;
+}
+a:link{
+    text-decoration: none;
+}
+
+a{
+   font-family: 'Roboto', sans-serif;
+   color: #FBAF42;
+}
+.logo{
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+header,main,section,footer{
+  border: 1px black groove;
+}
+
