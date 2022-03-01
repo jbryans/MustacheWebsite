@@ -6,17 +6,18 @@ body{
     margin: 0;
     width: auto;
     height: 1000px;
+    font-family: 'Roboto', sans-serif;
 }
-a:hover, li.selected a{
+header ul li a:hover, li.selected a{
     color: #09944A;
 }
 a:link{
     text-decoration: none;
 }
 
-a{
+header a{
    font-family: 'Roboto', sans-serif;
-   color: #FBAF42;
+   color: #FAAF42;
 }
 .logo{
     display: block;
@@ -39,4 +40,80 @@ ul{
 header,main,section,footer{
   border: 1px black groove;
 }
+main.home{
+    height: 400px;
+    background-image: url("backgroundfield.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+div.information{
+    margin: 20%;
+}
 
+.main-container-home main a{
+    background-color: #DC8104;
+    color: white;
+    padding: 14px 15px 12px;
+}
+.main-container-home main a:hover{
+    background-color: #09944A;
+} 
+
+p,h2{
+    background-color: black;
+    color: wheat;
+    font-size: 20px;
+    padding: 12px 27px;
+    text-align: left;
+ 
+    
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+.bottom{
+    font-style: italic;
+    font-size: smaller;
+    margin-left: 100px;
+    
+}
+ul.social-media-list img {
+    padding: auto;
+    border-radius: 5px;
+    background-color: #DC8104;
+    width: auto;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;  
+}
+.grasspic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.grass1{
+    width:400px;
+    height:300px;
+    margin: 10px;
+    border: #DC8104 groove 5px;
+    
+}
+.caption{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #DC8104;
+}
