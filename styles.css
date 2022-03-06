@@ -37,9 +37,9 @@ ul{
     align-items: baseline;
     justify-content: space-between;
 }
-header,main,section,footer{
+/* header,main,section,footer{
   border: 1px black groove;
-}
+} */
 main.home{
     height: 400px;
     background-image: url("backgroundfield.jpeg");
@@ -65,7 +65,7 @@ div.information{
     background-color: #09944A;
 } 
 
-p,h2{
+p.home,h2{
     background-color: black;
     color: wheat;
     font-size: 20px;
@@ -86,6 +86,7 @@ footer{
     font-style: italic;
     font-size: smaller;
     margin-left: 100px;
+    color: #DC8104;
     
 }
 ul.social-media-list img {
@@ -117,3 +118,155 @@ ul.social-media-list img {
     padding-bottom: 10px;
     color: #DC8104;
 }
+main.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 35px;
+    margin: 15px;
+    
+    
+}
+div.titleabout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.abouttitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.abouttitle{
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    color: black;
+}
+div.abouttitle p{
+    font-size: 14px;
+    color: gray;
+}
+
+.gallerygrass{
+    width: 300px;
+    height: 300px;
+    border: groove #DC8104 5px;
+}
+main.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+div.grasstypes p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: wheat;
+    background-color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+.grassimages{
+ display: grid;
+ grid-template-columns: 300px 300px 300px;
+ grid-template-rows: 300px 300px 300px;
+ column-gap: 10px;
+ row-gap: 10px;
+}
+main.blog{
+    margin: auto;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+div.why,div.pricing,div.customer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+    
+}
+
+
+.why,.pricing,.customer{
+    border: #DC8104 solid 3px;
+   
+}
+.blogimages {
+    width:350px;
+    height: 333px;
+    border: #DC8104 solid 3px;
+}
+section.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding:30px;
+}
+h5{
+    font-size: 25px;
+}
+section.info p{
+    color: gray;
+    text-align: center;
+}
+
+.button1 {
+    background-color: #DC8104; 
+    color: wheat; 
+    border: 2px solid #4CAF50;
+    transition-duration: .4s;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  h6{
+      text-align: center;
+  }
+  form{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+      
+  }
+  input{
+      margin: 30px;
+  }
+  form input{
+      text-transform: uppercase;
+      text-align: center;
+      width: 550px;
+      font-size: 16px;
+      color: green;
+  }
+  textarea{
+      height: 200px;
+      overflow: auto;
+      resize: none;
+      text-align: center;
+      text-transform: uppercase;
+      color: green;
+      font-size: 16px;
+  }
